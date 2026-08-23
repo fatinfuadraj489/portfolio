@@ -101,6 +101,7 @@ export default function BackgroundEffects() {
     if (!floatCanvas) return;
 
     const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+    const finePointer = window.matchMedia("(hover: hover) and (pointer: fine)");
     const ctx = floatCanvas.getContext("2d");
     const COUNT = 50;
     let boxes = [];
