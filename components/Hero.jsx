@@ -9,7 +9,7 @@ export default function Hero() {
 
         <h1 className="hero-title">
           I turn raw footage into<br />
-          <span className="accent-text">stories</span> that seles.
+          <span className="accent-text">stories</span> that lands.
         </h1>
 
         <p className="hero-sub">
