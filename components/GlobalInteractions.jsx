@@ -166,8 +166,14 @@ export default function GlobalInteractions({ children }) {
         return;
       }
 
-      const targetY = target.getBoundingClientRect().top + window.scrollY - HEADER_OFFSET;
-      startScroll(Math.max(targetY, 0));
+      const targetY = Math.max(target.getBoundingClientRect().top + window.scrollY - HEADER_OFFSET, 0);
+      
+      if (!finePointer.matches) {
+        window.scrollTo({ top: targetY, behavior: "smooth" });
+      } else {
+        startScroll(targetY);
+      }
+      
       window.history.pushState(null, "", hash);
     };
 

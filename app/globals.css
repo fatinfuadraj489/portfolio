@@ -114,6 +114,14 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
   will-change: transform; /* JS shifts it subtly toward the cursor */
 }
 
+/* On touch devices, animating background-position causes massive full-screen repaints and scroll lag. Disable it. */
+@media (hover: none) and (pointer: coarse) {
+  .bg-gradient {
+    animation: none;
+    background-size: cover;
+  }
+}
+
 @keyframes bg-drift {
   0%   { background-position: 0% 50%; }
   50%  { background-position: 100% 50%; }
