@@ -165,7 +165,7 @@ export default function BackgroundEffects() {
       pointer.y = e.clientY;
     };
 
-    if (!reduceMotion.matches) {
+    if (!reduceMotion.matches && finePointer.matches) {
       let last = performance.now();
 
       window.addEventListener("pointermove", handlePointerMove, { passive: true });
@@ -211,7 +211,7 @@ export default function BackgroundEffects() {
       clearTimeout(resizeTimer);
       resizeTimer = setTimeout(() => {
         resize();
-        if (reduceMotion.matches) drawStaticFrame();
+        if (reduceMotion.matches || !finePointer.matches) drawStaticFrame();
       }, 200);
     };
     window.addEventListener("resize", handleResize);
