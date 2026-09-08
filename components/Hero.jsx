@@ -13,8 +13,8 @@ export default function Hero() {
         </h1>
 
         <p className="hero-sub">
-          Hi, I&rsquo;m Fatin Fuad Raj &mdash; a freelance video editor with 3+ years
-          of experience. I edit long-form, short-form, talking head videos,
+          Hi, we're Color Creatives &mdash; a freelance video editing team with 3+ years
+          of experience. We edit long-form, short-form, talking head videos,
           documentaries, and brand ads.
         </p>
 

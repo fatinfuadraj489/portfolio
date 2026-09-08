@@ -57,7 +57,7 @@ export default function About() {
             <div className="photo-frame">
               <img
                 src="/Man_posing_in_workspace_202608230441.jpeg"
-                alt="Portrait of Fatin Fuad Raj, video editor"
+                alt="Portrait of Color Creatives team member"
                 width="600"
                 height="750"
                 loading="lazy"

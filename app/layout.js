@@ -1,11 +1,11 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Fatin Fuad Raj — Video Editor & Storyteller",
-  description: "Portfolio of Fatin Fuad Raj, a freelance video editor specializing in short-form content, documentaries, and brand films. Editing, color grading, motion graphics, and sound design.",
+  title: "Color Creatives — Video Editor & Storyteller",
+  description: "Portfolio of Color Creatives, a freelance video editor specializing in short-form content, documentaries, and brand films. Editing, color grading, motion graphics, and sound design.",
   openGraph: {
     type: "website",
-    title: "Fatin Fuad Raj — Video Editor & Storyteller",
+    title: "Color Creatives — Video Editor & Storyteller",
     description: "Short-form for the scroll, long-form for the story. Editing, color grading, motion graphics, and sound design.",
     images: [{ url: "https://example.com/og-cover.jpg" }], // EDIT: absolute URL
     url: "https://example.com", // EDIT: your live URL

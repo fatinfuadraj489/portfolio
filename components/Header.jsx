@@ -12,7 +12,7 @@ export default function Header() {
     <header className="site-header">
       <div className="container header-inner">
         <a href="#home" className="logo">
-          Fatin&nbsp;Fuad&nbsp;Raj<span className="logo-dot">.</span>
+          Color&nbsp;Creatives<span className="logo-dot">.</span>
         </a>
 
         <button
